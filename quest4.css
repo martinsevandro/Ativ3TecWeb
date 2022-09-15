@@ -1,0 +1,90 @@
+/* media questao 4*/
+
+/* celular iphone 11 pro*/
+@media (min-width: 375px) and (max-width: 809px){
+    body{
+        margin: 0;
+        padding: 0;
+        width: 100vw;
+        height: 100vh;
+        text-align: center;
+    }
+    p{
+        margin: 0;
+        padding: 0;
+        text-align: justify;
+    }
+    #pais{
+        background-color: rgb(233, 227, 227);
+        border: 1px solid rgb(92, 92, 92);
+        margin: 5px auto;
+        padding: 5px;
+        text-align: center;
+    }
+    #sobre{        
+        margin: 10px;
+    }
+    #bandeira{
+        display: none;
+    }
+}
+
+/* desktop - ipad */
+@media (min-width: 810px) and (max-width: 1439px){
+    body{
+        margin: 0;
+        padding: 0;
+    }
+    p{
+        margin: 0;
+        padding: 0;
+        text-align: justify;
+    }
+    .inlbloc{
+        width: calc(100% / 3);
+        height: 100px;
+        display: inline-block;
+    }
+    #pais{
+        background-color: rgb(233, 227, 227);
+        border: 1px solid rgb(92, 92, 92);
+        margin: 5px auto;
+        padding: 5px;
+        text-align: left;        
+    }            
+    #sobre{
+        margin: 5px;
+    }
+    #bandeira{
+        display: none;
+    }
+}
+
+/* tv */
+@media (min-width: 1440px){
+    body{
+        margin: 0;
+        padding: 0;
+    }
+    p{
+        margin: 0;
+        padding: 0;
+        text-align: justify;
+    }
+    .inlbloc{
+        width: calc(100% / 3);
+        height: 100px;
+        display: inline-block;
+    }
+    #pais{
+        background-color: rgb(233, 227, 227);
+        border: 1px solid rgb(92, 92, 92);
+        margin: 5px auto;
+        padding: 5px;
+        text-align: left;        
+    }            
+    #sobre{
+        margin: 5px;
+    }
+    
+}

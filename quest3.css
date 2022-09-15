@@ -1,0 +1,100 @@
+
+/* media questao 3*/
+
+/* celular */
+@media (min-width: 375px) and (max-width: 809px){
+    body{
+        margin: 0;
+        padding: 0;
+    }
+    p{
+        margin: 0;
+        padding: 0;
+    }
+    .div3{
+        margin: 0 auto;
+        padding: auto;
+        width: 100vw;
+        height: 100vh;
+        background-color: lightgreen;
+    }
+    .div4, .div5, .div6, .div7{
+        display: none;
+    }       
+}
+
+/* desktop ou ipad */
+@media (min-width: 810px) and (max-width: 1439px){
+    body{
+        margin: 0;
+        padding: 0;
+    }
+    p{
+        margin: 0;
+        padding: 0;
+    }
+    .div3{
+        margin: 0;        
+        padding: 0;
+        width: 100vw;
+        height: 50vh;
+        background-color: lightgreen;
+    }
+    .div4{
+        margin: 0;        
+        padding: 0;
+        width: 100vw;
+        height: 50vh;
+        background-color: blue;
+    }
+    .div5, .div6, .div7{
+        display: none;
+    }       
+}
+
+/* tv */
+@media (min-width: 1440px){
+    body{
+        margin: 0;
+        padding: 0;
+    }
+    p{
+        margin: 0;
+        padding: 0;
+    }
+    .div3{
+        margin: 0;        
+        padding: 0;
+        width: 100vw;
+        height: 20vh;
+        background-color: lightgreen;
+    }
+    .div4{
+        margin: 0;        
+        padding: 0;
+        width: 100vw;
+        height: 20vh;
+        background-color: blue;
+    }
+    .div5{
+        margin: 0;        
+        padding: 0;
+        width: 100vw;
+        height: 20vh;
+        background-color: lightslategray;
+    }
+    .div6{
+        margin: 0;        
+        padding: 0;
+        width: 100vw;
+        height: 20vh;
+        background-color: lightgreen;
+    }
+    .div7{
+        margin: 0;        
+        padding: 0;
+        width: 100vw;
+        height: 20vh;
+        background-color: blue;
+    }
+}
